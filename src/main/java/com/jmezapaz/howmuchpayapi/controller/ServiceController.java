@@ -18,11 +18,7 @@ public class ServiceController {
 
   @GetMapping
   public ResponseEntity<List<String>> services(){
-    List<String> list = new ArrayList<>();
-    list.add("Netflix");
-    list.add("Youtube");
-    list.add("Spotify");
-    list.add("Amazon Prime");
+    List<String> list = List.of("Netflix", "Youtube","Spotify","Amazon Prime");
     LOGGER.info("--ServiceApi::services services:{}", list);
     return new ResponseEntity<>(list, HttpStatus.OK);
   }
