@@ -12,9 +12,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/services")
-public class ServiceApi {
+public class ServiceController {
 
-  private static Logger LOGGER = LoggerFactory.getLogger(ServiceApi.class);
+  private static Logger LOGGER = LoggerFactory.getLogger(ServiceController.class);
 
   @GetMapping
   public ResponseEntity<List<String>> services(){
