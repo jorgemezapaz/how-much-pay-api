@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping("/api/v1/services")
 public class ServiceController {
 
-  private static Logger LOGGER = LoggerFactory.getLogger(ServiceController.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(ServiceController.class);
 
   @GetMapping
   public ResponseEntity<List<String>> services(){
