@@ -1,0 +1,617 @@
+[
+  {
+    "id": 1,
+    "name": "Netflix",
+    "plans": [
+      {
+        "name": "basic",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 6540
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 6.99
+          }
+        ]
+      },
+      {
+        "name": "Standard",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 9190
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 15.49
+          }
+        ]
+      },
+      {
+        "name": "Premium",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 11790
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 22.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Amazon Prime Video",
+    "plans": [
+      {
+        "name": "Standard",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 5790
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 14.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "HBO Max",
+    "plans": [
+      {
+        "name": "Standard",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 7990
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 9.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Paramount+",
+    "plans": [
+      {
+        "name": "Standard",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 3199
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 5.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Star+",
+    "plans": [
+      {
+        "name": "Standard",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 9500
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 9.99
+          }
+        ]
+      },
+      {
+        "name": "Combo+",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 11500
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 12.59
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Disney+",
+    "plans": [
+      {
+        "name": "Standard",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 7200
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 7.99
+          }
+        ]
+      },
+      {
+        "name": "Combo+",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 11500
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 13.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Youtube Premium",
+    "plans": [
+      {
+        "name": "Individual",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 5500
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 13.99
+          }
+        ]
+      },
+      {
+        "name": "Family",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 9200
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 22.99
+          }
+        ]
+      },
+      {
+        "name": "Student",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 3225
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 7.99
+          }
+        ]
+      },
+      {
+        "name": "Membership",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 0
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Spotify",
+    "plans": [
+      {
+        "name": "Individual",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 4550
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 10.99
+          }
+        ]
+      },
+      {
+        "name": "Family",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 7050
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 16.99
+          }
+        ]
+      },
+      {
+        "name": "Student",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 2500
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 5.99
+          }
+        ]
+      },
+      {
+        "name": "Duo",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 5850
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 14.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "XBOX Game Pass",
+    "plans": [
+      {
+        "name": "Console",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 5990
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 9.99
+          }
+        ]
+      },
+      {
+        "name": "PC",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 5990
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 9.99
+          }
+        ]
+      },
+      {
+        "name": "Ultimate",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 8990
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 16.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Play Station Plus",
+    "plans": [
+      {
+        "name": "Essential",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 0
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Extra",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 0
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 15
+          }
+        ]
+      },
+      {
+        "name": "Premium",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 0
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Apple Music",
+    "plans": [
+      {
+        "name": "Student",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 2490
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 3.49
+          }
+        ]
+      },
+      {
+        "name": "Individual",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 4490
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 6.49
+          }
+        ]
+      },
+      {
+        "name": "Family",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 11990
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 9.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Apple One",
+    "plans": [
+      {
+        "name": "Individual",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 9390
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 19.95
+          }
+        ]
+      },
+      {
+        "name": "Family",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 11990
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 25.95
+          }
+        ]
+      },
+      {
+        "name": "Premium",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 0
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 37.95
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Twitch",
+    "plans": [
+      {
+        "name": "Tier 1",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 2400
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 5.99
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 4800
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 9.99
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 12000
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 24.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Uber Eats",
+    "plans": [
+      {
+        "name": "Basic",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 3990
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 9.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Rappi Prime",
+    "plans": [
+      {
+        "name": "Basic",
+        "prices": [
+          {
+            "country": "CL",
+            "currency": "CLP",
+            "amount": 4990
+          },
+          {
+            "country": "US",
+            "currency": "USD",
+            "amount": 0
+          }
+        ]
+      }
+    ]
+  }
+]

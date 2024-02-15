@@ -1,13 +1,14 @@
 package com.jmezapaz.howmuchpayapi.controller;
 
+import com.jmezapaz.howmuchpayapi.dto.ServiceDTO;
 import com.jmezapaz.howmuchpayapi.dto.TestDto;
+import com.jmezapaz.howmuchpayapi.service.ServiceService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -16,11 +17,16 @@ public class ServiceController {
 
   private static final Logger LOGGER = LoggerFactory.getLogger(ServiceController.class);
 
+  private final ServiceService service;
+
+  public ServiceController(ServiceService service) {
+    this.service = service;
+  }
+
   @GetMapping
-  public ResponseEntity<List<String>> services(){
-    List<String> list = List.of("Netflix", "Youtube","Spotify","Amazon Prime");
-    LOGGER.info("--ServiceApi::services services:{}", list);
-    return new ResponseEntity<>(list, HttpStatus.OK);
+  public ResponseEntity<List<ServiceDTO>> services() {
+    LOGGER.info("--ServiceApi::services services");
+    return new ResponseEntity<>(service.getAllS(), HttpStatus.OK);
   }
 
   @PostMapping
