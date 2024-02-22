@@ -18,7 +18,7 @@ public class ServiceServiceImpl implements ServiceService{
   @Override
   public List<ServiceDTO> getAllS() {
     try{
-      String s = new String(Files.readAllBytes(Paths.get("src/main/resources/data.json")));
+      String s = new String(Files.readAllBytes(Paths.get("src/main/resources/data/data.json")));
       ObjectMapper mapper = new ObjectMapper();
       List<ServiceDTO> services = mapper.readValue(s, new TypeReference<List<ServiceDTO>>() {});
       LOGGER.info("--ServiceServiceImpl::getAllS services: {}", services);
